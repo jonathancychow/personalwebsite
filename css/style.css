@@ -582,3 +582,98 @@ body {
   z-index: 20;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+
+  .main-timeline{ font-family: 'Titillium Web', sans-serif; }
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: calc(50% + 40px);
+    float: left;
+}
+.main-timeline .timeline-content{
+    color: #777;
+    background: linear-gradient(to right,#395C94, #42B7F9);
+    padding: 30px 95px 40px 45px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before{
+    content: '';
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+.main-timeline .timeline-icon{
+    color: #395C94;
+    font-size: 55px;
+    line-height: 55px;
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    z-index: 1;
+}
+.main-timeline .title{
+    color: #395C94;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+}
+.main-timeline .description{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){ float: right; }
+.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 30px 40px 40px 100px; }
+.main-timeline .timeline:nth-child(even) .timeline-content:before{
+    right: 20px;
+    left: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: 15px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-content{
+    background: linear-gradient(to right, #FFAD12, #FF6221);
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon,
+.main-timeline .timeline:nth-child(4n+2) .title{
+    color: #FF6221;
+}
+@media screen and (max-width:990px){
+    .main-timeline .timeline{ width: 70%; }
+}
+@media screen and (max-width:767px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+@media screen and (max-width:479px){
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        text-align: center;
+        padding: 65px 25px 35px 35px;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-content{ padding: 65px 35px 35px 25px; }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        transform: translateX(-50%);
+        top: 0;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+    }
+    .main-timeline .title{ font-size: 22px; }
+  }
