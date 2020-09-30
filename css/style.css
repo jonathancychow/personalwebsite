@@ -225,7 +225,8 @@ body {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top; }
+  background-position: top; 
+background-attachment: fixed;}
 
 .section-skills {
   background-image: url("../image/humangroups2.jpg");
@@ -243,7 +244,8 @@ body {
   width: 100%; 
   background-size: cover;
   background-repeat: no-repeat;
-background-position: top;}
+background-position: top;
+background-attachment: fixed;}
 
 .section-testimonials {
   background-image: url("../image/BackGround2.jpg");
