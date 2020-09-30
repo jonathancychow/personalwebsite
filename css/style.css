@@ -238,10 +238,12 @@ body {
 .section-courses {
   background-image: url("../image/bgabout.jpg");
   position: relative;
-  padding: 15rem 0;
+  padding: 17rem 0;
   margin-top: 0;
   width: 100%; 
-  background-repeat: no-repeat;}
+  background-size: cover;
+  background-repeat: no-repeat;
+background-position: top;}
 
 .section-testimonials {
   background-image: url("../image/BackGround2.jpg");
