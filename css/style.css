@@ -226,6 +226,17 @@ body {
   background-repeat: no-repeat;
   background-position: top; 
 background-attachment: fixed;}
+
+.section-writeup1{
+  background-image: url("../image/bgabout.jpg");
+  padding: 17rem 0;
+  margin-top: 0;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; 
+background-attachment: fixed;}
+
 .section-about {
   background-image: url("../image/bgabout1.jpg");
   padding: 17rem 0;
