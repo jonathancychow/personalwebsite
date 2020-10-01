@@ -240,12 +240,10 @@ background-attachment: fixed;}
   background-image: url("../image/bgabout.jpg");
   position: relative;
   padding: 15rem 0;
-  margin-top: 0;
-  width: 100%; 
   background-size: cover;
   background-repeat: no-repeat;
-background-position: top;
-background-attachment: fixed;}
+  background-position: top;
+  background-attachment: fixed;}
 
 .section-testimonials {
   background-image: url("../image/BackGround2.jpg");
