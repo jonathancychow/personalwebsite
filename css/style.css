@@ -217,7 +217,15 @@ body {
     width: 150%;
     height: 150%;
     opacity: 0.3; }
-
+.section-writeup{
+  background-image: url("../image/bw.jpg");
+  padding: 17rem 0;
+  margin-top: 0;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; 
+background-attachment: fixed;}
 .section-about {
   background-image: url("../image/bgabout1.jpg");
   padding: 17rem 0;
