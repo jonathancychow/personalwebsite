@@ -227,18 +227,10 @@ body {
   background-position: top; 
 background-attachment: fixed;}
 
-.section-writeup1{
-  background-image: url("../image/bgabout1.jpg");
-  padding: 17rem 0;
-  margin-top: 0;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top; 
-background-attachment: fixed;}
+
 
 .section-about {
-  background-image: url("../image/bgabout1.jpg");
+  background-image: url("../image/backgroundabout.JPG");
   padding: 17rem 0;
   margin-top: 0;
   position: relative;
@@ -293,6 +285,7 @@ background-attachment: fixed;}
   position: relative; }
   .composition__photo {
     width: 50%;
+    height: 50rem;
     box-shadow: 0 1.5rem 4rem rgba(119, 119, 119, 0.4);
     border-radius: .2rem;
     position: absolute;
@@ -336,113 +329,7 @@ background-attachment: fixed;}
     cursor: pointer;
     transform: translateY(-1.5rem) scale(1.03); }
 
-.video-intro {
-  position: fixed;
-  background-position: center;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: 100%; }
 
-.card {
-  position: relative;
-  height: 30rem;
-  width: 140%; }
-  .card__side {
-    color: white;
-    font-size: 2rem;
-    transition: all .5s ease-in-out;
-    position: absolute;
-    top: 0;
-    width: 45rem;
-    left: 0;
-    width: 100%;
-    -webkit-backface-visibility: hidden;
-    overflow: hidden; }
-    .card__side--front {
-      background-color: #fff; }
-      .card__side--front:hover {
-        box-shadow: 0 1rem 2rem rgba(119, 119, 119, 0.5); }
-  .card__picture {
-    background-size: cover;
-    background-blend-mode: screen;
-    height: 20rem; }
-    .card__picture--1 {
-      width: 55%;
-      background-image: url(../image/ipad1.png); }
-    .card__picture--2 {
-      width: 55%;
-      background-image: url(../image/ipad2.png); }
-    .card__picture--3 {
-      width: 55%;
-      background-image: url(../image/ipad3.png); }
-    .card__picture--4 {
-      width: 55%;
-      background-image: url(../image/iphone1.png); }
-    .card__picture--5 {
-      width: 55%;
-      background-image: url(../image/iphone2.jpg); }
-    .card__picture--6 {
-      width: 55%;
-      background-image: url(../image/iphone3.png); }
-    .card__picture--7 {
-      width: 55%;
-      background-image: url(../image/iphone4.png); }
-    .card__picture--8 {
-      width: 55%;
-      background-image: url(../image/iphone5.jpg); }
-    .card__picture--9 {
-      width: 80%;
-      background-image: url(../image/airpods1.jpg); }
-    .card__picture--10 {
-      width: 55%;
-      background-image: url(../image/applepen1.jpg); }
-  .card__heading {
-    font-size: 2.8rem;
-    font-weight: 300;
-    text-align: right;
-    text-transform: uppercase;
-    position: absolute;
-    top: 12rem;
-    right: 2rem;
-    width: 75%; }
-  .card__heading-span {
-    border-radius: 5rem;
-    padding: 1rem 1.5rem;
-    -webkit-box-decoration-break: clone; }
-    .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(23, 207, 189, 0.85), rgba(255, 119, 48, 0.85)); }
-    .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(13, 95, 87, 0.85), rgba(24, 54, 54, 0.85)); }
-    .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(16, 170, 93, 0.85), rgba(5, 85, 45, 0.85)); }
-  .card__details {
-    color: black;
-    display: inline;
-    font-size: 1rem;
-    min-width: 30rem;
-    word-spacing: .1rem;
-    word-wrap: none; }
-    .card__details--subs-odometer {
-      color: black; }
-  .card__cta {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center; }
-  .card__person-only {
-    font-size: 1.4rem;
-    text-transform: uppercase; }
-  .card__person-box {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 8rem; }
-  .card__person-value {
-    font-size: 6rem;
-    font-weight: 100;
-    margin-bottom: 5rem; }
 
 .header-bar {
   padding-top: 1.5rem;
@@ -573,14 +460,7 @@ background-attachment: fixed;}
   .team-grid .item:hover .cover {
     opacity: 1; }
 
-.contact {
-  background-image: url("../image/techcontact.jpg");
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 0;
-  background-repeat: no-repeat; }
+
 
 .bigtittle {
   display: inline;
@@ -590,8 +470,6 @@ background-attachment: fixed;}
   border-bottom: 1px solid #f4f4f4;
   padding-left: 4rem; }
 
-.tiki {
-  background-color: aqua; }
 
 .active-pink-2 input[type=text]:focus:not([readonly]) {
   border-bottom: 1px solid #f48fb1;

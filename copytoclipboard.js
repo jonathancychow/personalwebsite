@@ -6,3 +6,4 @@ function copyToClipboard(element) {
     $temp.remove();
   }
   
+  

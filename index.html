@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/style.css" />   <!--Add this-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.validate.js"></script>
-    <script type="text/javascript" src="copytoclipboard.js"></script>
     <title>Thomas Luu</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
@@ -72,13 +70,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html"  >Thomas Luu</a>
+          <a class="nav-link" href="#first"  >Thomas Luu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="language.html" >IT Languages</a>
+          <a class="nav-link" href="#second" >Time-line</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="writeup.html" >Write-up</a>
+          <a class="nav-link" href="#third" >About me</a>
         </li>
         
       </ul>
@@ -94,24 +92,28 @@
             <i class="fab fa-instagram"></i>
           </a>
         </li>
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/luu-duy-toan-toan-8a869115a/" class="nav-link" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
         
 
-        </li>
       </ul>
      
 
     </div>
   </div>
 </nav>    
-    <header class="header">       
+    <header class="header" id="first">       
       <div class="header__text-box" >
         <h3 class="heading-primary" style="padding-bottom: 5rem;">
             <span class="heading-primary--main" style="color: white;">
-                Welcome
+                Thomas
             </span>
             <span class="heading-primary--sub" style="color: white;">
-                to Thomas's Blog
-            </span>
+              Portfolio.
+          </span>
 
         </h3>
         <a href="#second" class="btn-text" style="color: white; font-size: 3rem; padding-top: 4rem; font-weight: 700;">Read more </a>
@@ -122,16 +124,41 @@
     <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <div class="main-timeline">   
+              <div class="main-timeline">
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="timeline-year">2020</span>
+                      <div class="timeline-icon">
+                          <i class="fas fa-shield-alt"></i>
+                      </div>
+                      <h3 class="title">IT Achievement with PicoCTF</h3>
+                      <p class="description">
+                          This is my first step on the field of Cyber Security.
+                      </p>
+                  </a>
+              </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="timeline-year">2020</span>
+                      <div class="timeline-icon">
+                          <i class="fab fa-adversal"></i>
+                      </div>
+                      <h3 class="title">Sale-man at English Center Pasal</h3>
+                      <p class="description">
+                          After working here, I gained a lot of knowledge of 
+                          compromising and dealing with customers.
+                      </p>
+                  </a>
+              </div>   
                   <div class="timeline">
                       <a href="#" class="timeline-content">
                           <span class="timeline-year">2020</span>
                           <div class="timeline-icon">
-                              <i class="fa fa-globe"></i>
+                              <i class="fas fa-laptop"></i>
                           </div>
                           <h3 class="title">Web Designing</h3>
                           <p class="description">
-                              Learned this course at RMIT.
+                              This course gave me a chance to write my own website.
                           </p>
                       </a>
                   </div>
@@ -139,26 +166,68 @@
                       <a href="#" class="timeline-content">
                           <span class="timeline-year">2019</span>
                           <div class="timeline-icon">
-                              <i class="fa fa-rocket"></i>
+                              <i class="fas fa-school"></i>
                           </div>
                           <h3 class="title">RMIT University</h3>
                           <p class="description">
-                              Started studying at RMIT
+                              I start studying at RMIT University.
                           </p>
                       </a>
                   </div>
               </div>
           </div>
+          <a href="#third" class="btn-text" style="color: white; font-size: 3rem; padding-top: 4rem; font-weight: 700;">About me </a>
+
       </div>
+
   </div>   
 
     
         
         
     </section>
+    <section class="section-about" style="padding-bottom: 30rem;margin-bottom: -3rem;" id="third">
+      <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary" style="color:black;">
+              About me
+          </h2>
+      </div>
+      <div class="row" style="padding-left: 4rem;">
+          <div class="col">
+              <h3 class="heading-tertiary u-margin-bottom-small" style="font-weight: 600; font-size: 4rem; color: grey;">                  
+                  Personal Information:
+              </h3>
+              <p class="paragraph" style="color:black; font-weight: 650; word-spacing: 0.3rem;" >
+                I am a second years student at RMIT University. Since 2019, I have studied in the field of Information Technology,
+                also I have studied some courses in International Business and Hospitality and Tourism courses. By learning from 
+                different courses, I have a wide knowledge to use in the future.
+              </p>
+              <h3 class="heading-tertiary u-margin-bottom-small"  style="font-weight: 600; font-size: 4rem; color:grey;">
+                Personal projects:
+              </h3>
+              <p class="paragraph" style="color:black;font-weight: 650; word-spacing: 0.3rem;">
+                Although I mainly study IT, I'm still keen on expanding my knowledge in the business, 
+                which means that I can use IT to make money. Additionally, I have a passion with photograph and 
+                how to use photograph to do marketing. While managing my own perfume shop, I have tried to take 
+                some pretty photo to do advertisements.
+                
+              </p>
+              <a href="cv.pdf" class="btn-text" style="font-size: 3rem; color:black;">My CV</a>
+          </div>
+  
+          <div class="col">
+              <div class="composition">
+                  <img src="./image/project1.jpg" alt="photo1" class="composition__photo composition__photo--p1">
+                  <img src="./image/project2.jpg" alt="photo2" class="composition__photo composition__photo--p2">
+                  <img src="./image/project3.jpg" alt="photo3" class="composition__photo composition__photo--p3">
+              </div>
+          </div>
+      </div>        
+  </section>
+ 
     
 
-<footer class="page-footer font-small unique-color-dark">
+<footer class="page-footer font-small unique-color-dark" style="margin-top: 3rem; color: ;">
 
   
       
