@@ -634,3 +634,21 @@ background-attachment: fixed;}
 @media screen and (max-width:576px){
     .main-timeline .title{ font-size: 18px; }
 } */
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+}
+.view,body,html{height:100%}.navbar{background-color:transparent}.page-footer,.top-nav-collapse{background-color:#8a8a8a;} @media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.navbar-expand-lg .navbar-nav .nav-link{
+padding-left: 3rem;
+color: white;
+padding-right: 3rem;
+background: none;
+}
+.nav-item{
+color: white;
+font-size: 2rem;
+}
