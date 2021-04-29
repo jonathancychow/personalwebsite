@@ -1,2 +1,2 @@
 # personalwebsite
- This is Thomas's personal website.
+ This is Jonathan's personal website.
